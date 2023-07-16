@@ -52,3 +52,4 @@
 
 # Apache Subversion (SVN)
 
+git add
