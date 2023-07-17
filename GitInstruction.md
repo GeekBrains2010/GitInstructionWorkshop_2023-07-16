@@ -31,6 +31,19 @@
 ### Базовая работа с ветками в git.
 
 ## Работа с удаленными репозиториями.
+The repository can be: local (located directly in the memory of the developer's computer, development and fixing of changes takes place in it, after which it can be sent to a remote repository) remote (located on the server, can be private – accessible to a limited number of people, and public – open source).
+### commands:
+* **git clone  *<remote_url>*** - cloning a remote repository to a local machine.
+* **git pull** - updating a local branch with changes from a remote repository.
+* **git push** - sending local changes to a remote repository
+* **git remote** - viewing a list of deleted repositories
+* **git remote -v**- подробный просмотр списка удалённых репозиториев с указанием URL.
+* **git fetch** - загрузка изменений из удалённого репозитория без слияния с локальной веткой.
+* **git branch -r** - просмотр списка удалённых веток.
+* **git branch -a** - просмотр списка всех локальных и удалённых веток.
+* **git branch --track *<branch_name> <remote_branch>*** - создание локальной ветки, отслеживающей удалённую ветку.
+* **git remote add *<remote_name> <remote_url>*** - добавление нового удалённого репозитория.
+* **git remote remove *<remote_name>*** - удаление удалённого репозитория.
 
 ### Что такое удаленный репозиторий и для чего он нужен
 
